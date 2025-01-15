@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>62Extension</title>
+    <style>
+        body {
+            width: 300px;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .author {
+            text-align: center;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .button.inactive {
+            background-color: #555;
+            color: #ddd;
+        }
+        #discordButton {
+            background-color: #7289DA;
+            color: white;
+        }
+        .status {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .status.active {
+            color: #4CAF50;
+        }
+        .status.inactive {
+            color: #ff4444;
+        }
+        #keyForm {
+            margin-bottom: 20px;
+        }
+        #accessKey {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+        #submitKey {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>62Extension</h1>
+    <p class="author">Par Sixdeux</p>
+    <div id="keyForm" style="display: none;">
+        <input type="text" id="accessKey" placeholder="Entrez votre clé d'accès">
+        <button id="submitKey">Valider</button>
+    </div>    
+    <button id="toggleExtension" class="button">Activer</button>
+    <a href="https://discord.gg/62shop" target="_blank" class="button" id="discordButton">Rejoindre Discord</a>
+    <p id="status" class="status">Extension désactivée</p>
+    <script src="popup.js"></script>
+</body>
+</html>

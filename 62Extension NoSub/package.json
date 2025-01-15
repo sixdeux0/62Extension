@@ -1,0 +1,21 @@
+{
+    "name": "62extension",
+    "version": "1.0.0",
+    "description": "Une diffusions pour voir les rediffs sans ce sub",
+    "scripts": {
+        "patch": "node tools/patch.js"
+    },
+    "repository": {
+        "type": "url",
+        "url": "https://discord.gg/62shop"
+    },
+    "author": "besuper",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://discord.gg/62shop"
+    },
+    "homepage": "https://discord.gg/62shop",
+    "dependencies": {
+        "amazon-ivs-player": "1.34.1"
+    }
+}
