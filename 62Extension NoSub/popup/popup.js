@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const validKeys = [
-        "lifetime62-6789", // Remplacez par vos clés autorisées
+        "lifetime62-free0", // Remplacez par vos clés autorisées
         "lifetime62-yyyyy",
         "lifetime62-zzzzz"
     ];
